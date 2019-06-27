@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TriangleView">
+        <attr name="triangleview_width" format="dimension"></attr>
+        <attr name="triangleview_height" format="dimension"></attr>
+        <attr name="triangleview_color" format="color"></attr>
+        <attr name="triangleview_direction">
+            <enum name="top" value="0"></enum>
+            <enum name="bottom" value="1"></enum>
+            <enum name="left" value="2"></enum>
+            <enum name="right" value="3"></enum>
+        </attr>
+        <attr name="triangleview_style">
+            <enum name="fill" value="0"></enum>
+            <enum name="stroke" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+
+</resources>
